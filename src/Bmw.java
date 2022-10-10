@@ -6,8 +6,9 @@ public class Bmw extends  Car{
     @Override
     void drive() {
         System.out.println(driveSound);
-
     }
+
+
 
     public String getDriveSound() {
         return driveSound;
@@ -17,16 +18,12 @@ public class Bmw extends  Car{
         this.driveSound = driveSound;
     }
 
+    @Override
     public String getNewSound() {
         return newSound;
     }
 
     public void setNewSound(String newSound) {
         this.newSound = newSound;
-    }
-
-    @Override
-    public void newSound(Car car) {
-
     }
 }

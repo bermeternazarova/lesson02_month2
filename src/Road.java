@@ -13,11 +13,11 @@ public class Road {
         driveCar(mersedes);
         mersedes.setNewSound("Mersedes  едет");
         System.out.println(mersedes.getNewSound());
+        CarRepol carRepo = new CarRepol();
+        carRepo.newSound(bmw);
+        carRepo.newSound(mersedes);
 
-        CarRepol carRepol = new CarRepol();
-        carRepol.getNewSound(mersedes );
 
-        getNewSound(bmw , mersedes);
 
 
 
@@ -28,10 +28,6 @@ public class Road {
 
 
     }
-    public   static void getNewSound (Bmw bmw , Mersedes mersedes){
-        bmw.getNewSound();
-        mersedes.getNewSound();
 
 
-    }
 }

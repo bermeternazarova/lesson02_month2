@@ -9,6 +9,8 @@ public class Mersedes  extends Car{
         System.out.println(driveSound);
     }
 
+
+
     public String getDriveSound() {
         return driveSound;
     }
@@ -17,6 +19,7 @@ public class Mersedes  extends Car{
         this.driveSound = driveSound;
     }
 
+    @Override
     public String getNewSound() {
         return newSound;
     }
@@ -24,9 +27,10 @@ public class Mersedes  extends Car{
     public void setNewSound(String newSound) {
         this.newSound = newSound;
     }
-
-    @Override
-    public void newSound(Car car) {
-
-    }
 }
+
+
+
+
+
+

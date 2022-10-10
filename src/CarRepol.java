@@ -1,22 +1,12 @@
-public class CarRepol extends Car {
-
-   public  void  getNewSound(Car  car){
-      // System.out.println(car.getNewSound());
-        System.out.println("Издает звук");
-        System.out.println("Привет Я меттод гетНю соунд ");
-
-
-   }
+public class CarRepol implements  CarRepo {
 
     @Override
     public void newSound(Car car) {
-       // System.out.println(car.getNewSound());
-
+        System.out.println(car.getNewSound());
     }
+    public void newSound(Mersedes mersedes, Bmw bmw) {
+        System.out.println(mersedes.getNewSound());
+        System.out.println(bmw.getNewSound());
+    }}
 
-    @Override
-    void drive() {
 
-
-    }
-}
